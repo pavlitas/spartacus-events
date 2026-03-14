@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartacus Events App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+</head>
+<body>
+    
+    <div id="loader">
+        <img class="loader-logo" src="LOGO_NUOVO_SPARTACUS_EVENTS.png" alt="Spartacus">
+        <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+    
+    <header>
+        <img class="header-logo" src="LOGO_NUOVO_SPARTACUS_EVENTS.png" alt="Spartacus Sport Events">
+    </header>
+
+    <div id="app" class="app"></div>
+
+    <!-- scripts -->
+    <script type="module" src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js');
+        }
+    </script>
+</body>
+</html>
