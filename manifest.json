@@ -10,12 +10,14 @@
         {
             "src": "LOGO_NUOVO_SPARTACUS_EVENTS.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "background_color": "#0a0a0a"
         },
         {
             "src": "LOGO_NUOVO_SPARTACUS_EVENTS.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "background_color": "#0a0a0a"
         }
     ]
 }
