@@ -1,6 +1,6 @@
 {
     "name": "Spartacus Sport Events",
-    "short_name": "Spartacus",
+    "short_name": "Spartacus Events",
     "description": "Le gare di triathlon Spartacus Sport Events",
     "start_url": "./index.html",
     "display": "standalone",
@@ -8,13 +8,13 @@
     "theme_color": "#0a0a0a",
     "icons": [
         {
-            "src": "LOGO_NUOVO_SPARTACUS_EVENTS.png",
+            "src": "icon_se_512.png",
             "sizes": "192x192",
             "type": "image/png",
             "background_color": "#0a0a0a"
         },
         {
-            "src": "LOGO_NUOVO_SPARTACUS_EVENTS.png",
+            "src": "icon_se_192.png",
             "sizes": "512x512",
             "type": "image/png",
             "background_color": "#0a0a0a"
